@@ -148,8 +148,16 @@ x-github-request-id: CE44:76B8:17BDE4:1B843B:6308D9D0
 ## ②PostmanからGitHubに(GET・POST・PATCH・DELETE)リクエスト
 * GETリクエスト
 
-* GETリクエスト
+<img width="1440" alt="GETリクエスト" src="https://user-images.githubusercontent.com/90845405/187032008-d7a90889-1f44-4445-b4ca-a112d5de8604.png">
+
+* POSTリクエスト
+
+<img width="1440" alt="POSTリクエスト" src="https://user-images.githubusercontent.com/90845405/187032106-44f963ec-07b7-4ea5-87aa-a1751208552a.png">
 
 * PATCHリクエスト
 
+<img width="1440" alt="PATCHリクエスト" src="https://user-images.githubusercontent.com/90845405/187032020-d6a10877-2a81-483c-ab2d-865676374e2d.png">
+
 * DELETEリクエスト
+
+<img width="1440" alt="DELETEリクエスト" src="https://user-images.githubusercontent.com/90845405/187032026-63dac6e3-f3ca-481c-90dd-5264f1e35d62.png">
