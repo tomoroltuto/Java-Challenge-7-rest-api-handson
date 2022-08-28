@@ -69,7 +69,13 @@ location: https://api.github.com/repos/tomoroltuto/blog
 }
 ``` 
 
+
 * PATCHリクエスト
+
+<img width="505" alt="PATCHリクエスト(ターミナル変更前)" src="https://user-images.githubusercontent.com/90845405/187083856-94aa0aa2-2591-4866-9062-67c100fbd76e.png">
+
+<img width="505" alt="PATCHリクエスト(ターミナル変更後)" src="https://user-images.githubusercontent.com/90845405/187083863-609ca9bb-c5a4-411b-9056-79e9b5e462bd.png">
+
 
 コマンド
 ```bash
@@ -157,6 +163,11 @@ x-github-request-id: CE44:76B8:17BDE4:1B843B:6308D9D0
 * PATCHリクエスト
 
 <img width="1440" alt="PATCHリクエスト" src="https://user-images.githubusercontent.com/90845405/187032020-d6a10877-2a81-483c-ab2d-865676374e2d.png">
+
+<img width="505" alt="PATCHリクエスト(Postman変更前)" src="https://user-images.githubusercontent.com/90845405/187083909-6f44935d-03f1-469c-9060-18fb97ed71a3.png">
+
+<img width="505" alt="PATCHリクエスト(Postman変更後)" src="https://user-images.githubusercontent.com/90845405/187083911-aeb605e0-3478-4f3b-a308-07628485a1da.png">
+
 
 * DELETEリクエスト
 
