@@ -10,14 +10,12 @@
 
 実行結果を以下にまとめます。
 
-* GETリクエスト
+* GETリクエスト　(自分のユーザー情報を取得する)
 
 コマンド
-
 ```bash
 curl -i -u tomoroltuto:ghp_個人アクセストークン https://api.github.com/user'
 ``` 
-
 実行結果
 
 ```bash
@@ -31,7 +29,7 @@ content-type: application/json; charset=utf-8
   ...
 }
 ``` 
-* POSTリクエスト
+* POSTリクエスト (リポジトリの登録をする)
 
 コマンド
 
@@ -71,11 +69,7 @@ location: https://api.github.com/repos/tomoroltuto/blog
 
 
 * PATCHリクエスト
-
-<img width="505" alt="PATCHリクエスト(ターミナル変更前)" src="https://user-images.githubusercontent.com/90845405/187083856-94aa0aa2-2591-4866-9062-67c100fbd76e.png">
-
-<img width="505" alt="PATCHリクエスト(ターミナル変更後)" src="https://user-images.githubusercontent.com/90845405/187083863-609ca9bb-c5a4-411b-9056-79e9b5e462bd.png">
-
+(リポジトリ名の変更・privateをpublicに変更・Aboutを"This is your blog repository"に変更・ホームページに"https://github.com" を設定)
 
 コマンド
 ```bash
@@ -114,8 +108,15 @@ server: GitHub.com
  "visibility": "public",
 ...
 ``` 
+変更前
 
-* DELETEリクエスト
+![blog](https://user-images.githubusercontent.com/90845405/187134211-479be3ac-c317-4c26-8650-84cb3e1442d0.png)
+
+変更後
+
+![hell-world-blog](https://user-images.githubusercontent.com/90845405/187134251-e1a47737-24c9-4925-a549-32e69782d147.png)
+
+* DELETEリクエスト (リポジトリの削除)
 
 コマンド
 ```bash
@@ -151,24 +152,36 @@ vary: Accept-Encoding, Accept, X-Requested-With
 x-github-request-id: CE44:76B8:17BDE4:1B843B:6308D9D0
 ``` 
 
+
+
 ## ②PostmanからGitHubに(GET・POST・PATCH・DELETE)リクエスト
-* GETリクエスト
+
+
+* GETリクエスト　(自分のユーザー情報を取得する)
 
 <img width="1440" alt="GETリクエスト" src="https://user-images.githubusercontent.com/90845405/187032008-d7a90889-1f44-4445-b4ca-a112d5de8604.png">
 
-* POSTリクエスト
+* POSTリクエスト (リポジトリの登録をする)
 
 <img width="1440" alt="POSTリクエスト" src="https://user-images.githubusercontent.com/90845405/187032106-44f963ec-07b7-4ea5-87aa-a1751208552a.png">
 
+
 * PATCHリクエスト
+(リポジトリ名の変更・privateをpublicに変更・Aboutを"This is your blog repository"に変更・ホームページに"https://github.com" を設定)
+
+
 
 <img width="1440" alt="PATCHリクエスト" src="https://user-images.githubusercontent.com/90845405/187032020-d6a10877-2a81-483c-ab2d-865676374e2d.png">
 
-<img width="505" alt="PATCHリクエスト(Postman変更前)" src="https://user-images.githubusercontent.com/90845405/187083909-6f44935d-03f1-469c-9060-18fb97ed71a3.png">
+変更前
 
-<img width="505" alt="PATCHリクエスト(Postman変更後)" src="https://user-images.githubusercontent.com/90845405/187083911-aeb605e0-3478-4f3b-a308-07628485a1da.png">
+![blog2](https://user-images.githubusercontent.com/90845405/187134309-01e9fb29-0459-49f2-b47b-00d4231bedfb.png)
+
+変更後
+
+![hello-world-blog2](https://user-images.githubusercontent.com/90845405/187134321-f6b899c9-6a00-4c33-9526-1873cc28def0.png)
 
 
-* DELETEリクエスト
+* DELETEリクエスト (リポジトリの削除)
 
 <img width="1440" alt="DELETEリクエスト" src="https://user-images.githubusercontent.com/90845405/187032026-63dac6e3-f3ca-481c-90dd-5264f1e35d62.png">
